@@ -1,5 +1,3 @@
-import './App.css';
-
 export function ProfileSkillsSection() {
   return (
     <div className="ProfileSkills">

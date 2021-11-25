@@ -1,5 +1,3 @@
-import './App.css';
-
 export function WorkExperienceSection() {
   return (
     <div className="Section">
