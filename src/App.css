@@ -81,6 +81,39 @@
   color: #61dafb;
 }
 
+.ProjectCard {
+  border-radius: 2vh;
+  width: 80vw;
+  max-height: 30vh;
+  margin: 2vh;
+  padding: 1em;
+  background: #477bb8;
+}
+
+.ProjectPicture {
+  object-fit: cover;
+  height: 30vh;
+  width: 30wh;
+  float: left;
+}
+
+.ProjectDetails {
+  padding-left: 10em;
+}
+
+.ProjectTitle {
+  font-size: calc(10px + 1.3vh);
+}
+
+.ProjectSubtitle {
+  font-size: calc(10px + 1vh);
+}
+
+.Contributions {
+  font-size: calc(10px + 1vh);
+  padding-top: 1em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
