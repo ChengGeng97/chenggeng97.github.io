@@ -45,13 +45,18 @@
   padding-left: 15vw;
   padding-right: 15vw;
   text-align: left;
+  font-size: calc(10px + 1.3vh);
 }
 
 .ProfileSkillsColumn {
   float: left;
   flex: 1;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.ProfileSkillsHeader {
+  font-size: calc(10px + 2vh);
 }
 
 .Pain {
