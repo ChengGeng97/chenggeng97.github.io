@@ -33,6 +33,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: left;
 }
 
 .ProfileSkills {
@@ -41,18 +42,39 @@
   color: white;
   display: flex;
   flex-direction: row;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-align: left;
 }
 
 .ProfileSkillsColumn {
   float: left;
   flex: 1;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.Pain {
+  text-align: left;
+}
+
+.JobTitle {
+  margin: 0;
+  font-size: calc(10px + 2vh);
+}
+
+.JobPlace {
+  margin: 0;
+  font-size: calc(10px + 1vh);
+}
+
+.JobDescription {
+  font-size: calc(10px + 1.3vh);
 }
 
 .App-link {
   color: #61dafb;
 }
-
-
 
 @keyframes App-logo-spin {
   from {
