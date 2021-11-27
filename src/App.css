@@ -93,7 +93,7 @@
 .ProjectPicture {
   object-fit: cover;
   height: 30vh;
-  width: 30wh;
+  width: 30vh;
   float: left;
 }
 
@@ -107,11 +107,32 @@
 
 .ProjectSubtitle {
   font-size: calc(10px + 1vh);
+  font-style: italic;
 }
 
 .Contributions {
   font-size: calc(10px + 1vh);
   padding-top: 1em;
+}
+
+/* unvisited link */
+a:link {
+  color: #f797ad;
+}
+
+/* visited link */
+a:visited {
+  color: #ff8800;
+}
+
+/* mouse over link */
+a:hover {
+  color: gold;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 @keyframes App-logo-spin {

@@ -3,6 +3,7 @@ type ProjectCardProps = {
   imageSource: string;
   projectSubtitle: string;
   contributions: string[];
+  link: string;
 };
 
 export const ProjectCard:React.FC<ProjectCardProps> = props => {
@@ -28,8 +29,9 @@ export const ProjectCard:React.FC<ProjectCardProps> = props => {
               return <li>{contributionString}</li>;
             })}
           </ul>
-        </div>
 
+          Check it out <a href={props.link}>here</a>!
+        </div>
       </div>
     </div>
   );
