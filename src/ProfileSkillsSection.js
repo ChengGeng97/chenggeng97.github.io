@@ -6,8 +6,21 @@ export function ProfileSkillsSection() {
         <div className="ProfileSkillsHeader">PROFILE</div>
         <p>I am an NUS Computer Science student who will be graduating in May 2021. During my time in NUS, I was also the President of the Games Development Group.</p>
         <p>I will be looking forward to a job in the tech industry after I graduate. If I look like a fit for your company, please feel free to reach out to me!</p>
-        <div>Button to download Resume</div>
-        <div>Button to Email me</div>
+
+        <p className="FirstButtonContainer">
+          <a
+            className="ProfileSkillsButton"
+            href="https://cdn.discordapp.com/attachments/703224120191483908/913653902036041790/09-57-38-pomeranian-01.jpg"
+          > {"Download my resume"} </a>
+        </p>
+
+        <p className="SecondButtonContainer">
+          <a
+            className="ProfileSkillsButton"
+            href="mailto:chenggeng1997@gmail.com"
+          > {"Contact me by email"} </a>
+        </p>
+
       </div>
 
       <div className="ProfileSkillsColumn">

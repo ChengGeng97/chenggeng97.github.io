@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -14,7 +15,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-clip: border-box;
+  background-position-x: center;
+  background-size: cover;
+  background-position-y: center;
+  background-image: url(https://cdn.discordapp.com/attachments/703224120191483908/914075917557571614/padfkjdshkfj.png);
+  background-color: rgba(255, 255, 255, 0.3);
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +31,6 @@
 }
 
 .Section {
-  background-color: #282c34;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +43,6 @@
 
 .ProfileSkills {
   min-height: 50vh;
-  background-color: #282c34;
   color: white;
   display: flex;
   flex-direction: row;
@@ -57,6 +61,29 @@
 
 .ProfileSkillsHeader {
   font-size: calc(10px + 2vh);
+}
+
+.ProfileSkillsButton {
+  font-size: calc(10px + 1.3vh);
+  color: white;
+  border: none;
+  background-color: #8347b8;
+  border-radius: 0.2em;
+  cursor: pointer;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+.ProfileSkillsButton:hover {
+  background-color: #5b3285;
+}
+
+.FirstButtonContainer {
+  padding-top: 1vw;
+}
+
+.SecondButtonContainer {
+  padding-top: 2vw;
 }
 
 .Pain {
@@ -87,7 +114,7 @@
   max-height: 30vh;
   margin: 2vh;
   padding: 1em;
-  background: #477bb8;
+  background: #4a47b8;
 }
 
 .ProjectPicture {
@@ -116,22 +143,22 @@
 }
 
 /* unvisited link */
-a:link {
+a.ProjectCardLink:link {
   color: #f797ad;
 }
 
 /* visited link */
-a:visited {
+a.ProjectCardLink:visited {
   color: #ff8800;
 }
 
 /* mouse over link */
-a:hover {
+a.ProjectCardLink:hover {
   color: gold;
 }
 
 /* selected link */
-a:active {
+a.ProjectCardLink:active {
   color: blue;
 }
 

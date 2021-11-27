@@ -30,7 +30,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = props => {
             })}
           </ul>
 
-          Check it out <a href={props.link}>here</a>!
+          Check it out <a className="ProjectCardLink" href={props.link}>here</a>!
         </div>
       </div>
     </div>
