@@ -12,7 +12,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = props => {
     <div className="ProjectCard">
       <picture>
         <img
-          alt="pain"
+          alt={props.projectName}
           className="ProjectPicture"
           src={props.imageSource}
         >

@@ -1,18 +1,22 @@
 import './App.css';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import { WorkExperienceSection } from './WorkExperienceSection';
-import { ProjectsSection } from './ProjectsSection';
+import { AppHeader } from './AppHeader';
 import { ProfileSkillsSection } from './ProfileSkillsSection';
+import { ProjectsSection } from './ProjectsSection';
+import { WorkExperienceSection } from './WorkExperienceSection';
 
 function App() {
 
   return (
-    <div className="App">
-      <header className="App-header"> Cheng Geng </header>
-      <ProfileSkillsSection />
-      <WorkExperienceSection />
-      <ProjectsSection />
-    </div>
+    <MuiThemeProvider>
+      <div className="App">
+        <AppHeader />
+        <ProfileSkillsSection />
+        <WorkExperienceSection />
+        <ProjectsSection />
+      </div>
+    </MuiThemeProvider>
   );
 }
 

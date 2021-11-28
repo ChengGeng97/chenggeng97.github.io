@@ -19,15 +19,23 @@
   background-position-x: center;
   background-size: cover;
   background-position-y: center;
-  background-image: url(https://cdn.discordapp.com/attachments/703224120191483908/914075917557571614/padfkjdshkfj.png);
+  background-image: url(https://cdn.pixabay.com/photo/2014/03/07/06/42/whale-shark-281497_960_720.jpg);
   background-color: rgba(255, 255, 255, 0.3);
   min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 5vmin);
+
   color: white;
+}
+
+.DeveloperName {
+  font-size: calc(10px + 5vmin);  
+}
+
+.DeveloperSubtitle {
+  font-size: calc(10px + 1.3vmin);
 }
 
 .Section {
@@ -39,6 +47,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: left;
+  padding: 5vh;
 }
 
 .ProfileSkills {
@@ -50,6 +59,7 @@
   padding-right: 15vw;
   text-align: left;
   font-size: calc(10px + 1.3vh);
+  padding-top: 5vh;
 }
 
 .ProfileSkillsColumn {
