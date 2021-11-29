@@ -3,6 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import { AppHeader } from './AppHeader';
 import { ContactSection } from './ContactSection';
+import { Footer } from './Footer'; 
 import { NavBar } from './NavBar';
 import { ProfileSkillsSection } from './ProfileSkillsSection';
 import { ProjectsSection } from './ProjectsSection';
@@ -18,6 +19,7 @@ function App() {
         <WorkExperienceSection />
         <ProjectsSection />
         <ContactSection />
+        <Footer />
       </div>
     </MuiThemeProvider>
   );
