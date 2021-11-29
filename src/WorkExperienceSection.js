@@ -1,9 +1,9 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 export function WorkExperienceSection() {
   return (
-    <div className="Section">
+    <div id="workexp" className="Section">
       <header> WORK EXPERIENCE </header>
 
       <VerticalTimeline>

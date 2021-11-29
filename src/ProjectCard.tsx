@@ -6,7 +6,7 @@ type ProjectCardProps = {
   link: string;
 };
 
-export const ProjectCard:React.FC<ProjectCardProps> = props => {
+export const ProjectCard: React.FC<ProjectCardProps> = props => {
 
   return (
     <div className="ProjectCard">
@@ -16,7 +16,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = props => {
           className="ProjectPicture"
           src={props.imageSource}
         >
-        </img> 
+        </img>
       </picture>
       <div className="ProjectDetails">
         <div className="ProjectTitle">{props.projectName}</div>
@@ -25,7 +25,7 @@ export const ProjectCard:React.FC<ProjectCardProps> = props => {
         <div className="Contributions">
           <div className="MyContributionsTitle">My Contributions</div>
           <ul>
-            {props.contributions.map((contributionString:string) => {
+            {props.contributions.map((contributionString: string) => {
               return <li>{contributionString}</li>;
             })}
           </ul>

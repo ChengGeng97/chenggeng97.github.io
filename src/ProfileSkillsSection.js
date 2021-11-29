@@ -1,6 +1,6 @@
 export function ProfileSkillsSection() {
   return (
-    <div className="ProfileSkills">
+    <div id="aboutme" className="ProfileSkills">
 
       <div className="ProfileSkillsColumn">
         <div className="ProfileSkillsHeader">PROFILE</div>
