@@ -1,5 +1,7 @@
+import { Paper } from "@mui/material";
+
 export function Footer() {
   return (
-    <div>Website by Ong Cheng Geng | Created with React and Material-Ui</div>      
+    <Paper>Website by Ong Cheng Geng | Created with React and Material-Ui</Paper>      
   );
 };
