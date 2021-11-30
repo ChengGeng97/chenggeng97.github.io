@@ -2,7 +2,7 @@ import { AppBar, Button, Container } from "@mui/material";
 
 export function NavBar() {
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" enableColorOnDark={true}>
       <Container maxWidth="xl">
         <Button sx={{ color: 'white' }} href="#home">HOME</Button>
         <Button sx={{ color: 'white' }} href="#aboutme">ABOUT</Button>

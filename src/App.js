@@ -10,12 +10,13 @@ import { WorkExperienceSection } from './WorkExperienceSection';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
+import { CssBaseline } from '@mui/material';
+
 const theme = createTheme({
   palette: {
-    type: 'dark',
+    mode: 'dark',
     primary: {
       main: '#6b2bf7',
-      light: '#743eef',
     },
     secondary: {
       main: '#f76d05',
@@ -25,17 +26,19 @@ const theme = createTheme({
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <div className="App">
-        <NavBar />
-        <AppHeader />
-        <ProfileSkillsSection />
-        <WorkExperienceSection />
-        <ProjectsSection />
-        <ContactSection />
-        <Footer />
-      </div>
-    </ThemeProvider>
+    <div className="App">
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+          <NavBar />
+          <AppHeader />
+          <ProfileSkillsSection />
+          <WorkExperienceSection />
+          <ProjectsSection />
+          <ContactSection />
+          <Footer />
+
+      </ThemeProvider>
+    </div>
   );
 }
 
