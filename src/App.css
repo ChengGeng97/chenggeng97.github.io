@@ -2,6 +2,7 @@ html {
 	scroll-behavior: smooth;
 }
 
+/*
 .App {
   text-align: center;
   background-color: black;
@@ -156,22 +157,18 @@ html {
   padding-top: 1em;
 }
 
-/* unvisited link */
 a.ProjectCardLink:link {
   color: #f797ad;
 }
 
-/* visited link */
 a.ProjectCardLink:visited {
   color: #ff8800;
 }
 
-/* mouse over link */
 a.ProjectCardLink:hover {
   color: gold;
 }
 
-/* selected link */
 a.ProjectCardLink:active {
   color: blue;
 }
@@ -184,3 +181,4 @@ a.ProjectCardLink:active {
     transform: rotate(360deg);
   }
 }
+*/

@@ -1,5 +1,4 @@
 import './App.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import { AppHeader } from './AppHeader';
 import { ContactSection } from './ContactSection';
@@ -9,9 +8,24 @@ import { ProfileSkillsSection } from './ProfileSkillsSection';
 import { ProjectsSection } from './ProjectsSection';
 import { WorkExperienceSection } from './WorkExperienceSection';
 
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    type: 'dark',
+    primary: {
+      main: '#6b2bf7',
+      light: '#743eef',
+    },
+    secondary: {
+      main: '#f76d05',
+    },
+  },
+});
+
 function App() {
   return (
-    <MuiThemeProvider>
+    <ThemeProvider theme={theme}>
       <div className="App">
         <NavBar />
         <AppHeader />
@@ -21,7 +35,7 @@ function App() {
         <ContactSection />
         <Footer />
       </div>
-    </MuiThemeProvider>
+    </ThemeProvider>
   );
 }
 
