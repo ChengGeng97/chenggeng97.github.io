@@ -4,7 +4,10 @@ import { Link, Stack, Typography } from "@mui/material";
 
 export function ContactSection() {
   return (
-    <Box id="contact">
+    <Box
+      id="contact"
+      style={{ backgroundColor: "background.paper" }}
+    >
       <Typography
         align="center"
         sx={{ margin: "1vh 1vw", fontWeight: 'bold' }}
