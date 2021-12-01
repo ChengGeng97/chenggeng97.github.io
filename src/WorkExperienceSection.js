@@ -17,7 +17,7 @@ export function WorkExperienceSection() {
     <Box id="workexp" sx={{ py: "5vh" }}>
       <Typography align="center" sx={{ margin: "1vh 1vw" }}>WORK EXPERIENCE</Typography>
 
-      <Timeline>
+      <Timeline sx={{ ml: "-35vw" }}>
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
