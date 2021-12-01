@@ -13,7 +13,7 @@ type ProjectCardProps = {
 
 export const ProjectCard: React.FC<ProjectCardProps> = props => {
   return (
-    <Paper sx={{ my: "5vh", mx:"auto", width: "80vw", height: "40vh", padding: "3vh 3vw" }} variant="elevation" elevation={4}>
+    <Paper sx={{ my: "5vh", mx:"auto", width: "80vw", height: "40vh", padding: "3vh 3vw" }} variant="elevation" elevation={6}>
       <Stack direction="row" spacing={4}>
 
         <Box>
