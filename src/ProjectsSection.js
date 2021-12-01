@@ -5,7 +5,13 @@ import { ProjectCard } from "./ProjectCard.tsx";
 export function ProjectsSection() {
   return (
     <Box id="projects" margin="auto" sx={{ py: "5vh" }}>
-      <Typography align="center" sx={{ margin: "1vh 1vw" }}>PROJECTS</Typography>
+      <Typography
+        align="center"
+        sx={{ margin: "1vh 1vw", fontWeight: 'bold' }}
+        color="secondary"
+      >
+        PROJECTS
+      </Typography>
 
       <Box margin="auto">
         <ProjectCard
