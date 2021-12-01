@@ -4,7 +4,7 @@ import { Article, Email } from '@mui/icons-material';
 
 export function ProfileSkillsSection() {
   return (
-    <Box id="aboutme" sx={{ my: "5vh" }}>
+    <Box id="aboutme" sx={{ py: "5vh" }}>
       <Typography align="center" sx={{ margin: "1vh 1vw" }}>ABOUT ME</Typography>
 
       <Box width="50vw" sx={{ mx: "auto" }}>
