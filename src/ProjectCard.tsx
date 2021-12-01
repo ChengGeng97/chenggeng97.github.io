@@ -51,17 +51,38 @@ export const ProjectCard: React.FC<ProjectCardProps> = props => {
           </Typography>
 
           {props.demoLink &&
-            <Button sx={{ margin: "0.5vh 0.5vw" }} variant="contained" startIcon={<Link />}>
+            <Button
+              sx={{ margin: "0.5vh 0.5vw" }}
+              variant="contained"
+              startIcon={<Link />}
+              href={props.demoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Link
             </Button>
           }
           {props.githubLink &&
-            <Button sx={{ margin: "0.5vh 0.5vw" }} variant="contained" startIcon={<GitHub />}>
+            <Button
+              sx={{ margin: "0.5vh 0.5vw" }}
+              variant="contained"
+              startIcon={<GitHub />}
+              href={props.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </Button>
           }
           {props.youtubeLink &&
-            <Button sx={{ margin: "0.5vh 0.5vw" }} variant="contained" startIcon={<YouTube />}>
+            <Button
+              sx={{ margin: "0.5vh 0.5vw" }}
+              variant="contained"
+              startIcon={<YouTube />}
+              href={props.youtubeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Video
             </Button>
           }

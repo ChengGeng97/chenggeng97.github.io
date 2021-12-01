@@ -14,11 +14,25 @@ export function ProfileSkillsSection() {
             <Typography paragraph={true}>I am an NUS Computer Science student who will be graduating in May 2021. During my time in NUS, I was also the President of the Games Development Group.</Typography>
             <Typography paragraph={true}>I will be looking forward to a job in the tech industry after I graduate. If I look like a fit for your company, please feel free to reach out to me!</Typography>
 
-            <Button sx={{ my: "0.5vh" }} variant="contained" startIcon={<Article />} href="https://cdn.discordapp.com/attachments/703224120191483908/913653902036041790/09-57-38-pomeranian-01.jpg">
+            <Button
+              sx={{ my: "0.5vh" }}
+              variant="contained"
+              startIcon={<Article />}
+              href="https://cdn.discordapp.com/attachments/703224120191483908/913653902036041790/09-57-38-pomeranian-01.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download my resume!
             </Button>
 
-            <Button sx={{ my: "0.5vh" }} variant="contained" startIcon={<Email />} href="mailto:chenggeng1997@gmail.com">
+            <Button
+              sx={{ my: "0.5vh" }}
+              variant="contained"
+              startIcon={<Email />}
+              href="mailto:chenggeng1997@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Contact me by email!
             </Button>
           </Box>

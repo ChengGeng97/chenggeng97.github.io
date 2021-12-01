@@ -12,21 +12,23 @@ export function AppHeader() {
           <Link
             variant="body2"
             href="https://pixabay.com/photos/whale-shark-shark-aquarium-water-281497/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Background Image by JimmyDominico
           </Link>
 
           <Box sx={{py: "5vh"}}>
             <ButtonGroup>
-              <IconButton sx={{px: "0.5vw"}} href="https://github.com/ChengGeng97">
+              <IconButton sx={{px: "0.5vw"}} href="https://github.com/ChengGeng97" target="_blank" rel="noopener noreferrer">
                 <GitHub fontSize="large" />
               </IconButton>
 
-              <IconButton sx={{px: "0.5vw"}} href="https://www.linkedin.com/in/cheng-geng-ong-5414361a2/">
+              <IconButton sx={{px: "0.5vw"}} href="https://www.linkedin.com/in/cheng-geng-ong-5414361a2/" target="_blank" rel="noopener noreferrer">
                 <LinkedIn fontSize="large" />
               </IconButton>
 
-              <IconButton sx={{px: "0.5vw"}} href="mailto:chenggeng1997@gmail.com">
+              <IconButton sx={{px: "0.5vw"}} href="mailto:chenggeng1997@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Email fontSize="large" />
               </IconButton>
             </ButtonGroup>

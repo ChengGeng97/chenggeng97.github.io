@@ -16,7 +16,13 @@ export function ContactSection() {
             </Typography>
             <Typography align="center">Email me at</Typography>
             <Typography align="center">
-              <Link href="mailto:chenggeng1997@gmail.com">chenggeng1997@gmail.com</Link>
+              <Link
+                href="mailto:chenggeng1997@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                chenggeng1997@gmail.com
+              </Link>
             </Typography>
           </Box>
 
@@ -26,7 +32,13 @@ export function ContactSection() {
             </Typography>
             <Typography align="center">Find me on LinkedIn</Typography>
             <Typography align="center">
-              <Link href="https://www.linkedin.com/in/cheng-geng-ong-5414361a2/">My Profile</Link>
+              <Link
+                href="https://www.linkedin.com/in/cheng-geng-ong-5414361a2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                My Profile
+              </Link>
             </Typography>
           </Box>
         </Stack>
