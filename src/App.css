@@ -2,6 +2,13 @@ html {
 	scroll-behavior: smooth;
 }
 
+.ProjectPicture {
+  object-fit: cover;
+  margin: 1vh;
+  height: 30vh;
+  width: 30vw;
+}
+
 /*
 .App {
   text-align: center;
