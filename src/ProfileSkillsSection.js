@@ -5,9 +5,9 @@ import { Article, Email } from '@mui/icons-material';
 export function ProfileSkillsSection() {
   return (
     <Box id="aboutme" sx={{my: "5vh"}}>
-      <Typography align="center">About Me</Typography>
+      <Typography align="center">ABOUT ME</Typography>
 
-      <Box width="50vw" sx={{ mx: "auto"}}>
+      <Box width="50vw" sx={{ mx: "auto", mt: "-8vh"}}>
         <Grid container rowSpacing={1} alignItems="center" justify="center" margin="5vw">
           <Grid item sx={{ width: "20vw", height: "20vw" }} margin="auto">
             <Typography paragraph={true}>I am an NUS Computer Science student who will be graduating in May 2021. During my time in NUS, I was also the President of the Games Development Group.</Typography>

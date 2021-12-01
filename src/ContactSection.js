@@ -5,7 +5,7 @@ import { Grid, Link, Typography } from "@mui/material";
 export function ContactSection() {
   return (
     <Box id="contact" className="Section">
-      <Typography align="center">Contact</Typography>
+      <Typography align="center">CONTACT</Typography>
       <Typography align="center">Don't be a stranger!</Typography>
 
       <Grid container rowSpacing={1} alignItems="center" justify="center" margin="5vw">
