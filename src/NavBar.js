@@ -4,7 +4,7 @@ export function NavBar() {
   return (
     <AppBar position="sticky" enableColorOnDark={true}>
       <Box sx={{ mx: "auto" }}>
-        <Container maxWidth="xl">
+        <Container>
           <Button sx={{ color: 'white' }} href="#home">HOME</Button>
           <Button sx={{ color: 'white' }} href="#aboutme">ABOUT</Button>
           <Button sx={{ color: 'white' }} href="#workexp">WORK EXPERIENCE</Button>

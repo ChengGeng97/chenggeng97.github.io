@@ -15,7 +15,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 export function WorkExperienceSection() {
   return (
     <Box id="workexp" sx={{ my: "5vh" }}>
-      <Typography align="center">WORK EXPERIENCE</Typography>
+      <Typography align="center" sx={{ margin: "1vh 1vw" }}>WORK EXPERIENCE</Typography>
 
       <Timeline>
         <TimelineItem>

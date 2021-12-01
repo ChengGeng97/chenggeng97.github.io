@@ -13,7 +13,7 @@ type ProjectCardProps = {
 
 export const ProjectCard: React.FC<ProjectCardProps> = props => {
   return (
-    <Paper sx={{ margin: "5vh 5vw", width: "80vw", height: "40vh", padding: "3vh 3vw" }} variant="elevation" elevation={4}>
+    <Paper sx={{ my: "5vh", mx:"auto", width: "80vw", height: "40vh", padding: "3vh 3vw" }} variant="elevation" elevation={4}>
       <Stack direction="row" spacing={4}>
 
         <Box>
@@ -41,10 +41,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = props => {
           >
             {props.projectSubtitle}
           </Typography>
-
-          <Box sx={{ width: 100, height: 5, paddingBottom: '20px' }} className="center-contents">
-            <Box sx={{ width: 100, height: 5, margin: 'auto' }} className="primary-background-color" />
-          </Box>
 
           <Typography>
             <ul>
