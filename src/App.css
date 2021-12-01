@@ -9,6 +9,13 @@ html {
   width: 30vw;
 }
 
+.AppHeader {
+  background-image: url(https://cdn.discordapp.com/attachments/835058323828637706/915545250406227978/whaleshark.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
 /*
 .App {
   text-align: center;
