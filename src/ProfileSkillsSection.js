@@ -24,7 +24,7 @@ export function ProfileSkillsSection() {
               sx={{ my: "0.5vh" }}
               variant="contained"
               startIcon={<Article />}
-              href="https://cdn.discordapp.com/attachments/703224120191483908/913653902036041790/09-57-38-pomeranian-01.jpg"
+              href="https://github.com/ChengGeng97/chenggeng97.github.io/raw/main/src/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
