@@ -1,8 +1,8 @@
 import 'react-vertical-timeline-component/style.min.css';
 
-import { Laptop, PhoneAndroid } from '@mui/icons-material';
+import { GitHub, Laptop, PhoneAndroid, YouTube } from '@mui/icons-material';
 import { Box } from "@mui/system";
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -50,10 +50,22 @@ export function WorkExperienceSection() {
             <Typography paragraph={true} sx={{fontStyle: 'italic'}}>SourceAcademy</Typography>
             <Typography>
               <ul>
-                <li>Programmed interface using Javascript and React.</li>
                 <li>Implemented feature to allow students and tutors to save their work through GitHub.</li>
+                <li>Programmed feature interface using Javascript and React.</li>
                 <li>Made use of prototyping tools such as Figma to demonstrate UI ideas.</li>
                 <li>Wrote both user and developer guides for future users/maintainers of the features.</li>
+                <li>
+                  <Button
+                  sx={{ margin: "0.5vh 0.5vw" }}
+                  variant="contained"
+                  startIcon={<GitHub />}
+                  href={"https://github.com/source-academy/frontend"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                    Project Repo
+                  </Button>
+                </li>
               </ul>
             </Typography>
           </TimelineContent>
@@ -84,6 +96,19 @@ export function WorkExperienceSection() {
                 <li>Created game in Unity 3D with C#.</li>
                 <li>Engaged productively in discussions regarding user experiences and research goals with respect to implementation of the game.</li>
                 <li>Made use of Firebase for the logging of research data.</li>
+                <li>
+                  <Button
+                    sx={{ margin: "0.5vh 0.5vw" }}
+                    variant="contained"
+                    startIcon={<YouTube />}
+                    href={"https://youtu.be/G1nPTjCmFKs"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    color="secondary"
+                  >
+                    Video Demo
+                  </Button>
+                </li>
               </ul>
             </Typography>
           </TimelineContent>

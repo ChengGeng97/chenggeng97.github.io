@@ -1,4 +1,4 @@
-import { Link, YouTube, GitHub } from '@mui/icons-material';
+import { GitHub, Link, YouTube } from '@mui/icons-material';
 import { Button, Box, Paper, Stack, Typography } from '@mui/material';
 
 type ProjectCardProps = {
