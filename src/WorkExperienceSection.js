@@ -28,6 +28,39 @@ export function WorkExperienceSection() {
       </Typography>
 
       <Timeline sx={{ ml: "-35vw" }}>
+      <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0' }}
+            align="right"
+            color="text.secondary"
+          >
+            June 2022 - Current
+          </TimelineOppositeContent>
+
+          <TimelineSeparator>
+            <TimelineConnector />
+              <TimelineDot TimelineDot color="secondary">
+                <PhoneAndroid />
+              </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+
+          <TimelineContent sx={{ py: '5vh', px: 2 }}>
+            <Typography variant="h5" component="span" sx={{fontWeight: 'bold'}}> Software Engineer </Typography>
+            <Typography paragraph={true} sx={{fontStyle: 'italic'}}> Koei Tecmo Singapore </Typography>
+            <Typography>
+              <ul>
+                <li>Implement new features according to designer‑written specs for the localized version of a Japanese mobile RPG game written in C++.</li>
+                <li> Maintain internal webtool used for handling of Japanese to English translations written in JavaScript and PHP.</li>
+                <li> Develop and maintain a variety of internal tools used to automate a Programmer and Designer processes.</li>
+                <li> Handle the merging of source code from future Japanese versions of the codebase.</li>
+                <li> Investigate and fix bugs discovered during QA to ensure smooth running of the game.</li>
+                <li> Update internal documentation regarding the game and developmental processes.</li>
+              </ul>
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}

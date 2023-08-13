@@ -17,9 +17,10 @@ export function ProfileSkillsSection() {
         <Stack direction="row" spacing={4}>
 
           <Box width="50vw">
-            <Typography paragraph={true}>I am an NUS Computer Science student who will be graduating in May 2021. During my time in NUS, I was also the President of the Games Development Group.</Typography>
-            <Typography paragraph={true}>I will be looking forward to a job in the tech industry after I graduate. If I look like a fit for your company, please feel free to reach out to me!</Typography>
+            <Typography paragraph={true}>I am alumni of NUS Computer Science as of May 2021.</Typography>
+            <Typography paragraph={true}>I am interested in furthering my career as a game developer. If I look like a fit for your company, please feel free to reach out to me!</Typography>
 
+            <Typography paragraph={true}>
             <Button
               sx={{ my: "0.5vh" }}
               variant="contained"
@@ -30,7 +31,9 @@ export function ProfileSkillsSection() {
             >
               Download my resume!
             </Button>
+            </Typography>
 
+            <Typography paragraph={true}>
             <Button
               sx={{ my: "0.5vh" }}
               variant="contained"
@@ -41,17 +44,16 @@ export function ProfileSkillsSection() {
             >
               Contact me by email!
             </Button>
+            </Typography>
           </Box>
 
           <Box width="50vw">
-            <Typography paragraph={true}>My focus areas in Computer Science were Computer Graphics and Artificial Intelligence, with a minor in Interactive Media Development. I am confident that I will be able to pick up any necessary skills or competencies quickly.</Typography>
-            <Typography paragraph={true}>I am confident in my abilities in these areas:</Typography>
+            <Typography paragraph={true}>I graduated from NUS Computer Science with a specialization in Computer Graphics and Games. I am confident that I will be able to pick up any necessary skills or competencies quickly.</Typography>
+            <Typography paragraph={true}>My current work requires me to use the following:</Typography>
             <ul>
               <li>C#</li>
-              <li>Java</li>
               <li>C++</li>
-              <li>JavaScript</li>
-              <li>React</li>
+              <li>HTML/PHP/JavaScript</li>
             </ul>
           </Box>
 

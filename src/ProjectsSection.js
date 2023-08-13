@@ -10,7 +10,7 @@ export function ProjectsSection() {
         sx={{ margin: "1vh 1vw", fontWeight: 'bold' }}
         color="secondary"
       >
-        PROJECTS
+        PERSONAL PROJECTS
       </Typography>
 
       <Box margin="auto">
